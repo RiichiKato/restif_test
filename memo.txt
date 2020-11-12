@@ -1,0 +1,7 @@
+url --http2 -v http://192.168.3.5/
+
+curl -X PUT --http2 -v -H "Content-Type: application/json" -d '{"Name":"sensuikan1973"}'" http://192.168.3.6:8080/"
+
+
+
+curl -X POST --http2 -v -H "Content-Type: application/json" -d '{"Name":"sensuikan1973"}'" https://192.168.3.6:8443/"
